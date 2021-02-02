@@ -1,0 +1,25 @@
+.home {
+	z-index: 0px;
+}
+.shoe {
+    max-width: 500px;
+    position: absolute;
+    z-index: 1;
+    left: 2598px;
+    bottom: -1700px;
+}
+.shoe:hover{
+    transform: rotate(180deg); 
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.click{
+    position: absolute;
+    z-index: 2;
+    max-width: 900px;
+    left: 50px;
+    bottom: 275px;
+}
